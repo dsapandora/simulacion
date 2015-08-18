@@ -7,4 +7,13 @@ Profesor: Msc. Ariel Vernaza G-
 
 Lista de estudiates:
 
-1.
+
+
+
+
+
+
+
+
+
+19. Eusebio Atencio CanoMax019@gmail.com
