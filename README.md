@@ -10,4 +10,11 @@ Lista de estudiates:
 
 
 
-1. Valerio Gomez gvalerio19@hotmail.com
+
+
+
+
+
+
+
+20. Valerio Gomez gvalerio19@hotmail.com
