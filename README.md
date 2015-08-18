@@ -7,4 +7,15 @@ Profesor: Msc. Ariel Vernaza G-
 
 Lista de estudiates:
 
-1.
+
+
+
+
+
+
+
+
+
+
+
+1. Amancio Morgan amanciomorgan@gmail.com
