@@ -10,3 +10,5 @@ Lista de estudiates:
 1.Antonio Real antoniorubiel0303@hotmail.com 
 
 2.Yomely Gomez yomelyg09@gmail.com
+
+3.Abdiel Vargas abdielmaster18@gmail.com
