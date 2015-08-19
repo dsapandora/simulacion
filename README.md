@@ -12,3 +12,5 @@ Lista de estudiates:
 2.Yomely Gomez yomelyg09@gmail.com
 
 3.Abdiel Vargas abdielmaster18@gmail.com
+
+4.Eusebio Atencio CanoMax019@gmail.com
