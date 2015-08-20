@@ -14,3 +14,5 @@ Lista de estudiates:
 3.Abdiel Vargas abdielmaster18@gmail.com
 
 4.Eusebio Atencio CanoMax019@gmail.com
+
+5.Bonarge Rodriguez baster0402@hotmail.com
