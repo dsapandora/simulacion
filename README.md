@@ -14,3 +14,9 @@ Lista de estudiates:
 3.Abdiel Vargas abdielmaster18@gmail.com
 
 4.Eusebio Atencio CanoMax019@gmail.com
+
+
+
+
+
+7.Marisdel Caraballo mary23abd@gmail.com
