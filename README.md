@@ -7,14 +7,4 @@ Profesor: Msc. Ariel Vernaza G-
 
 Lista de estudiates:
 
-
-
-
-
-
-
-
-
-
-
-20. Valerio Gomez gvalerio19@hotmail.com
+ Valerio Gomez gvalerio19@hotmail.com
