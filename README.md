@@ -24,3 +24,5 @@ Lista de estudiates:
 7.Whendy Ramirez whendyr02@gmial.com
 
 8. Ariel soto ariel507sisop@gmail.com
+
+10. Eduardo Barria eduardo_barria@yahoo.com
