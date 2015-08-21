@@ -23,41 +23,7 @@ Lista de estudiates:
 
 4. Eusebio Atencio CanoMax019@gmail.com
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Amancio Morgan amanciomorgan@gmail.com
-
-
-
-
-
-
-100. Amancio Morgan amanciomorgan@gmail.com
+5. Amancio Morgan amanciomorgan@gmail.com
 
 5. Marisdel Caraballo mary23abd@gmail.com
 
