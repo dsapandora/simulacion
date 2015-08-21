@@ -7,6 +7,12 @@ Profesor: Msc. Ariel Vernaza G-
 
 Lista de estudiates:
 
+
+
+
+
+
+
 0. Nelson Santana G   nsantana8@hotmail.com
 
 1. Antonio Real antoniorubiel0303@hotmail.com 
@@ -22,6 +28,37 @@ Lista de estudiates:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amancio Morgan amanciomorgan@gmail.com
+
+
+
+
+
+
+100. Amancio Morgan amanciomorgan@gmail.com
+
 5. Marisdel Caraballo mary23abd@gmail.com
 
 6. Viviana Perea vimiper@hotmail.com
@@ -31,3 +68,4 @@ Lista de estudiates:
 8. Whendy Ramirez whendyr02@gmial.com
 
 9. Ariel soto ariel507sisop@gmail.com
+
