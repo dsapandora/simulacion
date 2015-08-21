@@ -28,3 +28,5 @@ Lista de estudiates:
 10. Dianis Atencio dianisatencio@hotmail.com
 
 11. Ariel soto ariel507sisop@gmail.com
+
+12. Amancio Morgan amanciomorgan@gmail.com
