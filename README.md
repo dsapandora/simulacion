@@ -7,6 +7,8 @@ Profesor: Msc. Ariel Vernaza G-
 
 Lista de estudiates:
 
+0.Nelson Santana G   nsantana8@hotmail.com
+
 1.Antonio Real antoniorubiel0303@hotmail.com 
 
 2.Yomely Gomez yomelyg09@gmail.com
