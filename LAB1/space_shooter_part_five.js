@@ -539,6 +539,7 @@ function Ship() {
 	this.move = function() {
 		counter++;
 		// Determine if the action is move action
+		
 		if (KEY_STATUS.left || KEY_STATUS.right ||
 				KEY_STATUS.down || KEY_STATUS.up) {
 			// The ship moved, so erase it's current image so it can
@@ -967,10 +968,13 @@ for (code in KEY_CODES) {
  * it sets the appropriate direction to true to let us know which
  * key it was.
  */
+ 
 document.onkeydown = function(e) {
 	// Firefox and opera use charCode instead of keyCode to
 	// return which key was pressed.
+console.log(KEY_CODES[e.keyCode]);
 	var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
+	
   if (KEY_CODES[keyCode]) {
 		e.preventDefault();
     KEY_STATUS[KEY_CODES[keyCode]] = true;
