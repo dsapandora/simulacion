@@ -15,17 +15,6 @@ Lista de estudiates:
 
 4.Eusebio Atencio CanoMax019@gmail.com
 
+5.Bonarge Rodriguez baster0402@hotmail.com
 
-
-
-
-
-
-
-
-
-
-
-
-
-5.Whendy Ramirez whendyr02@gmial.com
+6.Whendy Ramirez whendyr02@gmial.com
