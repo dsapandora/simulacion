@@ -22,3 +22,5 @@ Lista de estudiates:
 6.Bonarge Rodriguez baster0402@hotmail.com
 
 7.Whendy Ramirez whendyr02@gmial.com
+
+8. ariel soto ariel507sisop@gmail.com
