@@ -1,38 +1,3 @@
-/***************
- * PART FIVE - Finishing touches
- ***************/
-
-/* NOTES TO REMEMBER
- * Could add
- * - hitboxes to all objects to make collision better
- * - levels
- * - bosses
- * - explosions / particles
- * - parallax background
- * - vectors for movement
- * - lirbraries! http://www.createjs.com/#!/CreateJS
- */
-
-/* RESOURCES
- * http://www.w3schools.com/html5/html5_ref_av_dom.asp
- * http://www.superflashbros.net/as3sfxr/
- */
-
-/**
- * Initialize the Game and start it.
- */
-var game = new Game();
-
-function init() {
-	game.init();
-}
-
-
-/**
- * Define an object to hold all our images for the game so images
- * are only ever created once. This type of object is known as a
- * singleton.
- */
 var imageRepository = new function() {
 	// Define images
 	this.background = new Image();
@@ -968,7 +933,6 @@ for (code in KEY_CODES) {
  * key it was.
  */
 document.onkeydown = function(e) {
-	console.log(KEY_CODES[e.keyCode]);
 	// Firefox and opera use charCode instead of keyCode to
 	// return which key was pressed.
 	var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
