@@ -1,5 +1,5 @@
 # simulacion
-Simulacion IV AÃ±o Informactica
+Simulacion IV Año Informactica
 
 Profesor: Msc. Ariel Vernaza G-
 
@@ -8,6 +8,7 @@ Profesor: Msc. Ariel Vernaza G-
 Lista de estudiates:
 
 1. Nelson Santana G   nsantana8@hotmail.com
+
 
 2. Antonio Real antoniorubiel0303@hotmail.com 
 
@@ -21,12 +22,35 @@ Lista de estudiates:
 
 7. Viviana Perea vimiper@hotmail.com
 
+0. Nelson Santana G   nsantana8@hotmail.com
+
+
 8. Bonarge Rodriguez baster0402@hotmail.com
 
 9. Whendy Ramirez whendyr02@gmial.com
 
 10. Dianis Atencio dianisatencio@hotmail.com
 
+
 11. Ariel soto ariel507sisop@gmail.com
 
 12. Amancio Morgan amanciomorgan@gmail.com
+
+4. Eusebio Atencio CanoMax019@gmail.com
+
+5. Amancio Morgan amanciomorgan@gmail.com
+
+5. Marisdel Caraballo mary23abd@gmail.com
+
+6. Viviana Perea vimiper@hotmail.com
+
+7. Bonarge Rodriguez baster0402@hotmail.com
+
+8. Whendy Ramirez whendyr02@gmial.com
+
+9. Ariel soto ariel507sisop@gmail.com
+
+10. Azael Oro azael.oro@gmail.com
+
+11. Valerio Gomez gvalerio19@hotmail.com
+
