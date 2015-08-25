@@ -1,0 +1,10 @@
+Jugando 32 veces el juego (Galaxian) puede observar lo siguiente:
+
+1.Observe dos patrones de  movimeiento de los enemigos, es de la siguiene forma:
+  . Los enemigos se mueven de izquierda a derecha y de derecha a izquierda.
+  . Los enemigos se mueven de derecha a izquierda.
+
+2. El patron realizado por (Mi navecita) fue el siguiente:
+   
+   . Pude obtener mayor intentos moviendome de derecha a el centro.
+   . Muy pocas veces podia ir de derecha a izquierda (o de una esquina a otra).
