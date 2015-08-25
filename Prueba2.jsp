@@ -1,38 +1,3 @@
-/***************
- * PART FIVE - Finishing touches
- ***************/
-
-/* NOTES TO REMEMBER
- * Could add
- * - hitboxes to all objects to make collision better
- * - levels
- * - bosses
- * - explosions / particles
- * - parallax background
- * - vectors for movement
- * - lirbraries! http://www.createjs.com/#!/CreateJS
- */
-
-/* RESOURCES
- * http://www.w3schools.com/html5/html5_ref_av_dom.asp
- * http://www.superflashbros.net/as3sfxr/
- */
-
-/**
- * Initialize the Game and start it.
- */
-var game = new Game();
-
-function init() {
-	game.init();
-}
-
-
-/**
- * Define an object to hold all our images for the game so images
- * are only ever created once. This type of object is known as a
- * singleton.
- */
 var imageRepository = new function() {
 	// Define images
 	this.background = new Image();
@@ -539,11 +504,8 @@ function Ship() {
 	this.move = function() {
 		counter++;
 		// Determine if the action is move action
-		
 		if (KEY_STATUS.left || KEY_STATUS.right ||
-		KEY_STATUS.down || KEY_STATUS.up) {
-
-
+				KEY_STATUS.down || KEY_STATUS.up) {
 			// The ship moved, so erase it's current image so it can
 			// be redrawn in it's new location
 			this.context.clearRect(this.x, this.y, this.width, this.height);
@@ -552,22 +514,18 @@ function Ship() {
 			// redraw the ship. Change the else if's to if statements
 			// to have diagonal movement.
 			if (KEY_STATUS.left) {
-                             
 				this.x -= this.speed
 				if (this.x <= 0) // Kep player within the screen
 					this.x = 0;
 			} else if (KEY_STATUS.right) {
-
 				this.x += this.speed
 				if (this.x >= this.canvasWidth - this.width)
 					this.x = this.canvasWidth - this.width;
 			} else if (KEY_STATUS.up) {
-
 				this.y -= this.speed
 				if (this.y <= this.canvasHeight/4*3)
 					this.y = this.canvasHeight/4*3;
 			} else if (KEY_STATUS.down) {
- 
 				this.y += this.speed
 				if (this.y >= this.canvasHeight - this.height)
 					this.y = this.canvasHeight - this.height;
@@ -974,14 +932,10 @@ for (code in KEY_CODES) {
  * it sets the appropriate direction to true to let us know which
  * key it was.
  */
- 
 document.onkeydown = function(e) {
-	console.log(KEY_CODES[e.keyCode]);
 	// Firefox and opera use charCode instead of keyCode to
 	// return which key was pressed.
-console.log(KEY_CODES[e.keyCode]);
 	var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
-	
   if (KEY_CODES[keyCode]) {
 		e.preventDefault();
     KEY_STATUS[KEY_CODES[keyCode]] = true;

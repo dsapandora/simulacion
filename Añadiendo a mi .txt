@@ -1,0 +1,177 @@
+Welcome to Git (version 1.9.5-preview20150319)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Amancio@MORGAN507 ~
+$ ls
+AndroidStudioProjects
+AppData
+Configuraci??n local
+Contacts
+Cookies
+Datos de programa
+Desktop
+Documents
+Downloads
+Entorno de red
+Favorites
+Impresoras
+IntelGraphicsProfiles
+Links
+Men?? Inicio
+Mis documentos
+Music
+NTUSER.DAT
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001
+.regtrans-ms
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002
+.regtrans-ms
+Pictures
+Plantillas
+Prezi
+Reciente
+Roaming
+Saved Games
+Searches
+SendTo
+Tracing
+Videos
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+Amancio@MORGAN507 ~
+$ mkdir Amancio
+
+Amancio@MORGAN507 ~
+$ cd Amancio
+
+Amancio@MORGAN507 ~/Amancio
+$ git clone https://github.com/amancimorgan/simulacion.git
+Cloning into 'simulacion'...
+remote: Counting objects: 22, done.
+remote: Total 22 (delta 0), reused 0 (delta 0), pack-reused 22
+Unpacking objects: 100% (22/22), done.
+Checking connectivity... done.
+
+Amancio@MORGAN507 ~/Amancio
+$ git remote add Prueba https://github.com/dsapandora/simulacion.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+Amancio@MORGAN507 ~/Amancio
+$ ls
+simulacion
+
+Amancio@MORGAN507 ~/Amancio
+$ cd simulacion
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git remote add Prueba https://github.com/dsapandora/simulacion.git
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git remote -v
+Prueba  https://github.com/dsapandora/simulacion.git (fetch)
+Prueba  https://github.com/dsapandora/simulacion.git (push)
+origin  https://github.com/amancimorgan/simulacion.git (fetch)
+origin  https://github.com/amancimorgan/simulacion.git (push)
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git pull Prueba master
+remote: Counting objects: 64, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 64 (delta 4), reused 3 (delta 3), pack-reused 54
+Unpacking objects: 100% (64/64), done.
+From https://github.com/dsapandora/simulacion
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> Prueba/master
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Amancio@Morgan507.(none)')
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git config --global user.email "amanciomorgan@gmail.com"
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git config --global user.name "Amancio"
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git pull Prueba master
+From https://github.com/dsapandora/simulacion
+ * branch            master     -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master|MERGING)
+$ pwd
+/c/Users/Administrador/Amancio/simulacion
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master|MERGING)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master|MERGING)
+$ git add README.md
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master|MERGING)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   README.md
+
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master|MERGING)
+$ git commit -m "Corrigiendo archivo"
+[master e7e3585] Corrigiendo archivo
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 29 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$ git push origin master
+Username for 'https://github.com': amancimorgan
+Password for 'https://amancimorgan@github.com':
+Counting objects: 71, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (67/67), done.
+Writing objects: 100% (67/67), 7.66 KiB | 0 bytes/s, done.
+Total 67 (delta 18), reused 0 (delta 0)
+To https://github.com/amancimorgan/simulacion.git
+   0b96250..e7e3585  master -> master
+
+Amancio@MORGAN507 ~/Amancio/simulacion (master)
+$
