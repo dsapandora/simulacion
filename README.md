@@ -1,5 +1,5 @@
 # simulacion
-Simulacion IV AÃ±o Informactica
+Simulacion IV Año Informactica
 
 Profesor: Msc. Ariel Vernaza G-
 
@@ -7,8 +7,6 @@ Profesor: Msc. Ariel Vernaza G-
 
 Lista de estudiates:
 
-
-   Valerio Gomez gvalerio19@hotmail.com
 
 0. Nelson Santana G   nsantana8@hotmail.com
 
@@ -32,3 +30,6 @@ Lista de estudiates:
 
 9. Ariel soto ariel507sisop@gmail.com
 
+10. Azael Oro azael.oro@gmail.com
+
+11. Valerio Gomez gvalerio19@hotmail.com
