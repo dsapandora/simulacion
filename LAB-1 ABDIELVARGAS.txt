@@ -1,0 +1,22 @@
+#LABORATORIO 1
+
+Estudiante:
+Abdiel Vargas 5-706-2314
+
+
+Jugar el juego Galaxian dando click a space_shooter_part_five.html
+
+1. Determinar el patron de movimiento de los enemigos:
+R: luego de repetir el juego Galaxian del archivo space_shooter_part_five.html, puedo determinar que:
+
+   - luego de 2 segundo de forma vertical, los enemigo siempre se mueven a la IZQUIERDA
+      y realizando su deparos aleatorios.
+
+2. Indicar cual es el patron realizado para obtener la mayor cantidad de puntos.
+ R: Al momento de repetir varias veces el juego puedo sacar como conclusión lo siguiente:
+
+   - Como por enemigos se mueven a la IZQUIERDA, podemos realizar el movimiento a la DERECHA y comenzar a 
+     destruir a los enemigos de DERECHA a IZQUIERDA.
+
+   - en otros momentos tambien puedo considerar tener disparos constantes de DERECHA a IZQUIERDA estudiando los
+     posibles disparos de los ENEMIGOS.
