@@ -1,0 +1,15 @@
+Modelo del movimiento para ganar en el juego Space Shooter
+
+
+Movimiento del heroe:
+
+a)Inicia en la mitad del campo
+b)Desplazarse a la derecha por 2 segundos y parar.
+c)Esperar que el enemigo termine el primer ciclo.
+d)Desplazarse a la izquierda en contra del ciclo del enemigo.
+e)repetir lo mismo en la parte izquierda del campo.
+
+Tentativamente el movimiento del heroe (la nave personal), parece ser
+opuesto al de los enemigos o al menos ligeramente desplazado hacia la derecha,
+me inclino a creer que si los enemigos se mueven en un patrón Enemigos=Sin(2t),
+se puede ganar utilizando la nave heroe con una funcion Heroe=Cos(2t)
