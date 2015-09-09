@@ -1,0 +1,14 @@
+Laboratorio #1 Modelo y Simulación
+
+Nombre: Eduardo Barría
+
+1- Demostrar el patrón de movimiento de las naves enemigas.
+2- Demostrar el patrón realizado para demostrar la mayor cantidad de puntos.
+3- Realizarlo 32 veces
+
+Desarrollo
+Al intentar las 32 veces para descifrar los patrones, los resultados fueron los siguientes
+
+1- El patrón de movimiento de los enemigos es el siguiente, al inicio bajan y se dirige izquierda a derecha disparando a segundo a la nave contraria, el patrón es el siguiente se mueve de izquierda a derecha.
+2- el patrón siguiente demuestra los movimientos que obtuve para moverme y obtener los mejores resultados: Derecha, luego a la izquierda (ubicado en el centro de las naves), luego derecha,   luego izquierda y luego a la derecha (ubicándome hasta que me elimine el grupo primero), luego voy a lo contrario: Izquierda derecha deteniéndome en el centro y luego nuevamente a   la izquierda(me detuve) este intento lo realice las últimas veces obteniendo un máximo de 2,140 ptos. 
+3- fueron las 32 veces las jugadas obteniendo en la jugada 26 y 32 los mayores puntajes.

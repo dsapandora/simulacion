@@ -35,3 +35,7 @@ Lista de estudiates:
 
 14. Valerio Gomez gvalerio19@hotmail.com
 
+8. Ariel soto ariel507sisop@gmail.com
+
+10. Eduardo Barria eduardo_barria@yahoo.com
+
