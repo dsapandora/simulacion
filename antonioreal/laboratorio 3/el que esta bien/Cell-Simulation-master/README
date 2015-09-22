@@ -1,0 +1,18 @@
+Python simulation of a single-celled organism
+Peter Collingridge 2010
+
+> testCell.py
+This is the top-level module
+* Gives an example of how to create and update cells
+* Runs simulation for 48000 units of time
+
+> virtualCell.py
+* Defines Solution and Cell classes
+* Imports <biochemistry>
+
+> biochemistry.py
+* Contains all_metabolites list and all_reactions dictionary
+* Defines Metabolite, Reaction and Protein classes
+
+> graphDrawer.py
+* Takes multiple time series and plots them as an SVG
