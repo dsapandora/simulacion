@@ -1,5 +1,5 @@
 # simulacion
-Simulacion IV Año Informactica
+Simulacion IV AÃ±o Informactica
 
 Profesor: Msc. Ariel Vernaza G-
 
@@ -39,3 +39,4 @@ Lista de estudiates:
 
 10. Eduardo Barria eduardo_barria@yahoo.com
 
+17. Angel Garcia 3dangs28@gmail.com
